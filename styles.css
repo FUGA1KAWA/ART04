@@ -1,0 +1,79 @@
+﻿body {
+	margin: auto;
+	padding: 0px;
+	background-image: url("../image/wall04.gif");
+	font-family: "メイリオ";
+}
+div {
+	margin: auto;
+	padding: 10px;
+}
+div#wrapper {
+	width: 1500px;
+	height: 2000px;
+	background-color: DarkGray;
+}
+div#header {
+	background-color: White;
+}
+div#eyecatch {
+	margin: 10px auto 0px;
+	padding: 0px;
+	position: relative;
+	height: 200px;
+}
+div#eyecatch img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div#eyecatch img.next {
+	display: none;
+}
+div#nav {
+	margin: 10px auto;
+	height: 250px;
+	width: 150px;
+	float: left;
+	background-color: White;
+}
+div#article {
+	margin: 10px auto;
+	height: 750px;
+	width: 1300px;
+	float: right;
+	background-color: White;
+}
+.text_01 {
+	front-family: "Chick";
+}
+hr {
+	width: 100%;
+	border: dotted 1px Purple;
+}
+
+div#article2 {
+	margin: 10px auto;
+	height: 750px;
+	width: 1300px;
+	float: right;
+	background-color: White;
+}
+video {
+	width: 300px;
+	height: 700px;
+}
+div#footer {
+	clear: both;
+	height: 50px;
+	background-color: White;
+}
+a:link {
+	color: DarkBlue;
+}
+a:visited {
+	color: MediumSlateBlue;
+}
+a:hover {
+	color: PeachPuff;
+}
